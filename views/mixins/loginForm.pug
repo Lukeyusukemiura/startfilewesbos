@@ -1,0 +1,10 @@
+mixin loginForm()
+ form.form(action="/login" method="POST") 
+  h2 Login
+  label(for="email") email address
+  input(type="email" name="email") 
+  label(for="password") password
+  input(type="password" name="password") 
+  input(type="submit" value="Log in")
+
+ 
